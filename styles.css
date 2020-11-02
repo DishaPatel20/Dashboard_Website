@@ -1,0 +1,118 @@
+body{
+    font-family: "Helvetica Neue",sans-serif;
+	font-size: 18px;
+}
+.dropdown-item:hover{
+	background: linear-gradient(45deg,black,darkslategrey);
+	color: azure !important;
+	box-shadow: 0 0 5px black;
+}
+.bg-teal , .btn-teal{
+	background-color: #125050;
+}
+.text-teal{
+	color: #125050 !important;
+}
+.bg-primary , .btn-primary{
+	background: linear-gradient(45deg,darkslategrey,cornflowerblue);
+}
+.bg-success , .btn-success{
+	background: linear-gradient(45deg,darkslategrey,limegreen);
+}
+.bg-warning , .btn-warning{
+	background: linear-gradient(45deg,darkslategrey,coral);
+}
+.bg-danger , .btn-danger{
+	background: linear-gradient(45deg,darkslategrey,red);
+}
+.bg-secondary , .btn-secondary{
+	background: linear-gradient(45deg,darkslategrey,purple);
+}
+.bg-teal{
+	background-color: #125050;
+}
+.bg-light-blue{
+	background-color: #bacee9;
+}
+.bg-light-green{
+	background-color: #91d195;
+}
+.bg-light-yellow{
+	background-color: #fcbca3;
+}
+#bg-info{
+	background-color: darkcyan;
+}
+.p-image{
+	border-radius: 20px;
+	box-shadow: 0 0 30px black;
+}
+@font-face{
+            font-family: mine;
+            src: url(fonts/Pacifico.ttf);
+        }
+        body{
+            font-family:mine;
+            background-image: url(img/g1.gif);
+            background-size: cover;
+            background-position: center;
+        }
+        .form-div{
+        	width: 300px;
+        	text-align: center;
+        	margin: 150px auto;
+        	height: 350px;
+        	background-color: rgba(0,0,0,0.5);
+        	border-radius: 20px;
+        	box-shadow: 0 0 20px #0466C8;
+        }
+        .form-div img{
+        	width: 100px;
+        	margin-top: -50px
+        }
+        .form-div h2{
+        	 text-shadow: 0 0 50px #FFF1E6;
+        	 font-size: xx-large;
+        	 margin-top: 10px;
+        	 font-family:mine;
+        	 color: black;
+        }
+        input[type='text'],
+        input[type='password']{
+        	text-align: center;
+        	padding: 5px;
+        	border: none;
+        	outline: none;
+        	font-size: 18px;height: 35px;
+        	background: transparent;
+        	color: azure;
+        	border-bottom: 1px solid #E6BEAE;
+        	width: 200px;
+        	margin-top: 30px;
+        }
+        input[type='text']:focus,
+        input[type='password']:focus{
+        	border-bottom: 3px solid brown;
+        }
+        ::placeholder{
+        	color: lightgray;
+        }
+        .login{
+        	background:linear-gradient(45deg,#FAD2E1,#FDE2E4,#99C1DE);
+        	font-family: mine;
+        	border: none;
+        	font-size: 20px;
+        	margin: 20px;
+        	width: 100px;
+        	border-radius: 70px;
+        	outline: none;
+        	margin-bottom: 10px;
+        	padding: 10px;
+ 			margin-left: 100px;
+        }
+        .login:hover{
+        	background:linear-gradient(45deg,#081C15,#1B4332,#2D6A4F);
+        	color: black;
+        	box-shadow: 0 0 20px #B7E4C7;
+        	transform: rotate(10deg);
+        }

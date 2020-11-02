@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>DP Dashboard </title>
+</head>
+<body>
+<!--------------main navbar------------->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+       <a href="index.html" class="navbar-brand font-weight-bold">
+         <img src="img/logo.png" style="height: 50px">
+       </a>
+       <button class="navbar-toggler" data-toggle="collapse" data-target="#dp-navbar">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="dp-navbar">
+           <ul class="navbar-nav">
+             <li class="nav-item">
+               <a href="index.html" class="nav-link"><i class="fa fa-chart-bar text-muted"></i>  Dashboard</a>
+             </li>
+              <li class="nav-item">
+               <a href="task.html" class="nav-link"><i class="fa fa-list text-muted"></i>  Tasks</a>
+             </li>
+              <li class="nav-item">
+               <a href="categories.html" class="nav-link"><i class="fa fa-sitemap text-muted"></i>  Categories</a>
+             </li>
+              <li class="nav-item">
+               <a href="employees.html" class="nav-link"><i class="fa fa-users text-muted"></i>  Employees</a>
+             </li>
+           </ul>
+            <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+               <a href="#" class="nav-link" data-toggle="dropdown"><i class="fa fa-sign-in-alt text-muted"></i>  Disha</a>
+               <div class="dropdown-menu p-2">
+                     <a href="profile.html" class="dropdown-item"><i class="fa fa-user-circle"></i> Profile</a>
+                     <a href="settings.html" class="dropdown-item"><i class="fa fa-cogs"></i> Settings</a>
+               </div>
+             </li>
+              <li class="nav-item">
+               <a href="settings.html" class="nav-link"><i class="fa fa-sign-out-alt text-muted"></i>  LogOut</a>
+             </li>
+           </ul>
+       </div>
+    </div>
+</nav>
+<!---------------------profile section----------------->
+<section class="p-2 bg-teal text-white">
+  <div class="container">
+    <div class="row">
+      <h1>
+        <i class="fa fa-cogs"> Settings </i>
+      </h1>
+    </div>
+  </div>
+</section>
+
+<!---------------------buttons section----------------->
+<section class="p-3 bg-light text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+          <a href="index.html" class="btn btn-secondary btn-block"><i class="fa fa-arrow-alt-circle-left"></i> Dashboard
+          </a>
+      </div>
+      <div class="col-md-3">
+         <!----------empty----->
+      </div>
+      <div class="col-md-3">
+         <!----------empty----->
+      </div>
+      <div class="col-md-3">
+         <a href="index.html" class="btn btn-success btn-block"><i class="fa fa-arrow-alt-circle-right"></i> Save Changes
+          </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!------------------------main content section------->
+<section class="p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="card animated jello">
+          <div class="card-header bg-warning text-white">
+            <h3>Edit Settings</h3>
+          </div>
+          <div class="card-body bg-light">
+             <label class="form-check-label">Allow User Registration</label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" value="yes" name="say">
+              <label class="form-check-label">Yes</label>
+            </div>
+            <div class="form-check">
+            <input type="radio" class="form-check-input" value="no" name="say">
+            <label class="form-check-label">No</label>
+          </div>
+      <br><br>
+            <label class="form-check-label">Homepage Format</label>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" value="yes" name="say">
+              <label class="form-check-label">Post Index</label>
+            </div>
+            <div class="form-check">
+            <input type="radio" class="form-check-input" value="no" name="say">
+            <label class="form-check-label">Single Page</label>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br><br>
+
+
+<!------------------------footer section------------------>
+<section class="p-3 bg-teal text-white text-center">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h3>Copyright &copy; 2020 , DP.com</h3>
+        <h6>All Right Reserved</h6>
+        <h6>Developed & Maintained by 
+          <a href="https://github.com/disha001" target="-blank" class="text-warning">  Disha Patel</a></h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- BODY ENDS -->
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+<script>
+                  CKEDITOR.replace( 'editor1' );
+                </script>
+</body>
+</html>
